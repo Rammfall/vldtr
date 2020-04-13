@@ -4,7 +4,9 @@
   "description": "Package for form validation in vanilla js projects",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "npm run lint:js",
+    "lint:js": "eslint \"**/*.js\""
   },
   "repository": {
     "type": "git",
